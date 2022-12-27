@@ -6,8 +6,11 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     background-color: blue;
     color: white;
-    font-size: 100px;
-    padding: 50px;
+    font-size: 75px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav {
@@ -26,33 +29,59 @@ h1 {
 .quote-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    color: black;
-    height: fit-content;
-    width: 40%;
+    width: 70%;
 }
 
 .quote-text {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
+    font-size: 75px;
+    text-align: justify;
+    margin: none;
 }
 
 .quote-author {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    text-align: left;
+    font-size: 60px;
+    padding-top: 30px;
 }
 
+.quote-up {
+    float: left;
+    padding-right: 10px;
+}
+
+.quote-down {
+    float: right;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+/*
 .quote-ticks {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 200px;
-    margin-bottom: -100px;
+    font-size: 60px;
+    background-color: green;
+}
+*/
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-button {
+h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    margin: 50px;
-    border: none;
-    color: white;
     background-color: blue;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
