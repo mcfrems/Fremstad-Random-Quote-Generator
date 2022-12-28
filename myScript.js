@@ -1,8 +1,8 @@
 console.log(1+Math.floor(Math.random()*100))
 
-/*alert("hi");
+alert("hi");
 
-const apiKey = "acc785dd4ef0fe813c807aa2818b9994";
+/*const apiKey = "acc785dd4ef0fe813c807aa2818b9994";
 
 const testurl = "https://api.openweathermap.org/data/2.5/weather?zip=68803&units=imperial&appid=acc785dd4ef0fe813c807aa2818b9994";
 
