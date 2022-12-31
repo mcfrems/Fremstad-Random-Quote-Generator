@@ -2,7 +2,7 @@ body {
     background-color: white;
 }
 
-h1 {
+/*h1 {
     font-family: Arial, Helvetica, sans-serif;
     background-color: blue;
     color: white;
@@ -11,12 +11,13 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 50px;
 }
 
 .container {
@@ -35,30 +36,29 @@ h1 {
     width: 70%;
 }
 
-.quote-text {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 75px;
-    text-align: justify;
+#quote-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    text-align: center;
     margin: none;
 }
 
-.quote-author {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    font-size: 60px;
-    padding-top: 30px;
+#quote-author {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-top: 50px;
+    font-size: 30px;
 }
 
-.quote-up {
-    float: left;
-    padding-right: 10px;
+#quote-up {
+    margin-bottom: -60px;
+    margin-top: 50px;
 }
 
-.quote-down {
-    float: right;
-    padding-left: 10px;
-    padding-top: 20px;
+#quote-down {
+    margin-top: -30px;
 }
+
 /*
 .quote-ticks {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -67,21 +67,22 @@ h1 {
 }
 */
 
-.footer {
-    margin-top: 50px;
+#footer {
+    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-h2 {
+#btn-new-quote {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: blue;
+    background-color: black;
     color: white;
-    font-size: 30px;
-    padding: 10px;
-    width: 800px;
+    font-size: 10px;
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+    border-radius: 35px;
 }
